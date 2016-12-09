@@ -1,0 +1,36 @@
+nav.navbar {
+    border-radius: 0;
+}
+
+nav.navbar{
+    margin-bottom: 0;
+}
+a.navbar-brand {
+    padding-top: 5px;
+}
+
+.triangle {
+    display: inline-block;
+    position: relative;
+    background: #484f58;
+}
+
+
+ul.nav.navbar-nav.navbar-right{
+    margin-right: -30px;
+}
+
+.triangle:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    margin-top: -15px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 15px solid #484f58;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid transparent;
+}

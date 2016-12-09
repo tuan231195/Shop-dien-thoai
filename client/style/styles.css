@@ -1,0 +1,13 @@
+@import 'footer.css';
+@import 'header.css';
+@import 'home.css';
+@import 'product.css';
+@import 'contact.css';
+@import 'cart.css';
+@import 'faq.css';
+@import 'login.css';
+
+body {
+    font-family: 'Vollkorn', serif;
+}
+

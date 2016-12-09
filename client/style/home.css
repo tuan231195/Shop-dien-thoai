@@ -1,0 +1,31 @@
+#home{
+    background: url("../images/jumbotron.jpg") center;
+    background-size: cover;
+    color:white;
+    height: 500px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#home h1{
+    margin-bottom: 30px;
+}
+
+#home h2{
+    margin-bottom: 50px;
+}
+
+
+#home .btn
+{
+    background-color: rgb(83, 131, 221);
+    color: white;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+#home .btn:hover
+{
+    background-color: rgb(29, 72, 221);
+}
