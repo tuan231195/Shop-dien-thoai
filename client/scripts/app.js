@@ -1,4 +1,4 @@
-angular.module("ShoppingApp", ['navigation-mod', 'footer-mod', 'about-mod', 'home-mod', 'contact-mod', 'product-mod', 'cart-mod', 'faq-mod', 'login-mod', 'ngRoute']).controller('mainCtrl', ["$scope", function ($scope) {
+angular.module("ShoppingApp", ['navigation-mod', 'footer-mod', 'about-mod', 'home-mod', 'contact-mod', 'product-mod', 'cart-mod', 'faq-mod', 'login-mod', 'info-mod', 'ngRoute']).controller('mainCtrl', ["$scope", function ($scope) {
 
 }]).config(['$routeProvider', function ($routeProvider) {
     $routeProvider
@@ -9,5 +9,6 @@ angular.module("ShoppingApp", ['navigation-mod', 'footer-mod', 'about-mod', 'hom
         .when("/cart", {template: '<cart-section></cart-section>'})
         .when("/login", {template: '<login-section></login-section>'})
         .when("/faq", {template: '<faq-section></faq-section>'})
+        .when("/info", {template: '<info-section></info-section>'})
         .otherwise("/home");
 }]);
