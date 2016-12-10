@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ShoppingAdmin">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shopping site</title>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn">
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="lib/bootstrap-fileinput/css/fileinput.min.css" rel="stylesheet"/>
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css"/>
+    <link href="style/styles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<header-section></header-section>
+<div class="container">
+    <div class="col-sm-3 sidebar">
+        <navigation-section></navigation-section>
+    </div>
+    <div class="col-sm-9 main">
+        <div class="col-sm-10 col-sm-offset-1">
+            <div ng-view></div>
+        </div>
+    </div>
+</div>
+
+
+<script src="lib/angular/angular.min.js"></script>
+<script src="lib/angular-route/angular-route.min.js"></script>
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="lib/bootstrap-fileinput/js/plugins/canvas-to-blob.min.js"></script>
+<script src="lib/bootstrap-fileinput/js/fileinput.min.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/components/navigation.js"></script>
+<script src="scripts/components/header.js"></script>
+<script src="scripts/components/category.js"></script>
+<script src="scripts/components/home.js"></script>
+<script src="scripts/components/product.js"></script>
+
+
+</body>
+</html>

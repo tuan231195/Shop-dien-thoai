@@ -1,0 +1,55 @@
+<div class="row">
+    <form class="form" enctype="multipart/form-data">
+        <h3>Brand</h3>
+        <div class="form-group">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <select class="form-control">
+                <option>--Select brand--</option>
+                <option>Nokia</option>
+                <option>Iphone</option>
+                <option>Blackberry</option>
+                <option>Motorola</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <textarea rows="10" class="form-control" id="specs" name="specs" placeholder="Description"></textarea>
+        </div>
+        <div class="form-group">
+            <label class="control-label">Select Images</label>
+            <input id="input-id" type="file" class="file" data-preview-file-type="image" multiple/>
+        </div>
+        <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Save</button>
+    </form>
+</div>
+
+<div class="row brand-list">
+    <table class="table table-bordered table-striped table-responsive">
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Brand</th>
+        </tr>
+        <tr>
+            <td class="product-image"><img class="img-responsive img-thumbnail" src="images/bike.jpg"/></td>
+            <td>Nokia 1220</td>
+            <td>Nokia</td>
+        </tr>
+        <tr>
+            <td class="product-image"><img class="img-responsive img-thumbnail" src="images/bike.jpg"/></td>
+            <td>Nokia 1220</td>
+            <td>Nokia</td>
+        </tr>
+        <tr>
+            <td class="product-image"><img class="img-responsive img-thumbnail" src="images/bike.jpg"/></td>
+            <td>Nokia 1220</td>
+            <td>Nokia</td>
+        </tr>
+        <tr>
+            <td class="product-image"><img class="img-responsive img-thumbnail" src="images/bike.jpg"/></td>
+            <td>Nokia 1220</td>
+            <td>Nokia</td>
+        </tr>
+    </table>
+</div>

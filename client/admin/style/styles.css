@@ -1,0 +1,8 @@
+@import 'product.css';
+@import 'category.css';
+@import 'home.css';
+@import 'navigation.css';
+
+h3{
+    color:  rgb(83, 131, 221);
+}

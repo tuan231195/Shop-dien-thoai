@@ -1,0 +1,24 @@
+{
+  "name": "ElectronicShop",
+  "authors": [
+    "vdtn359 <vdtn359@uowmail.edu.au>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.9",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "angular-route": "^1.5.9",
+    "bootstrap-fileinput": "^4.3.5"
+  }
+}
